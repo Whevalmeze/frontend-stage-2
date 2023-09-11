@@ -26,6 +26,9 @@ export default {
       fontFamily: {
         sans: ['DM Sans', 'sans-serif'],
       },
+      width : {
+        grid : "250px",
+      }
     },
   },
   plugins: [],
