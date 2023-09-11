@@ -25,7 +25,7 @@ export default {
       },
       fontFamily: {
         sans: ['DM Sans', 'sans-serif'],
-      }
+      },
     },
   },
   plugins: [],
