@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./src/**/*.{html,js}",
+    "./src/**/*.{html,jsx}",
     ".index.html",
 ],
   theme: {
@@ -13,6 +13,8 @@ export default {
           500: '#6B7280',
           900: '#111827',
         },
+        transparent: 'transparent',
+        current: 'currentColor',
         rose : {
           700: '#BE123C',
         },
@@ -22,7 +24,7 @@ export default {
         lightGray: '#F3F4F680'
       },
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
+        sans: ['DM Sans', 'sans-serif'],
       }
     },
   },

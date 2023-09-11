@@ -1,11 +1,16 @@
-import '../dist/output.css'
+import '../dist/output.css';
+import Hero from './components/Hero.jsx';
+import Body from './components/Body.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
     <>
-      <p className="text-center mx-auto max-w-full">Hello</p>
+      <Hero/>
+      <Body/>
+      <Footer/>
     </>
   )
 }
 
-export default App
+export default App;
